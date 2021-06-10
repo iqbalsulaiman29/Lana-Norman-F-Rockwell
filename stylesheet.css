@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 350px 0;
+  background-image: url(https://scontent.fcgk12-1.fna.fbcdn.net/v/t1.6435-9/69815481_3029649550410808_130564974278868992_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=YqAQIEY7GsIAX_ifzSZ&_nc_ht=scontent.fcgk12-1.fna&oh=1db4074fef0b0f5638fb3e0fe7c90255&oe=60E45544);
+  background-size:cover
+}
+
+.main-wrapper {
+  color: black;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding:20px 0 50px 0;
+  border-bottom:2px solid #eee;
+}
+.main-wrapper h1 {
+  opacity: 0.9;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: -2px 0 navy, 0 2px navy, 2px 0 orange, 0 -2px orange;
+  font-weight:normal;
+  font-family:"Courier"
+}
+
+.main-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  font-size:15px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-family:"Courier";
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.instagram {
+  background-image:linear-gradient(to right, orange , purple);
+  margin-right:10px;
+}
+
+.youtube {
+  background-color: #dd2626;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+.spotify {
+  background-color: seagreen;
+  margin-right:10px;
+}
+.apple {
+  background-color:black;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  font-size:15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(38,97,132,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 70px;
+  margin-top: 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float:right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family:monospace;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 25px 26px;
+  /* Change the display property to none */
+  display:none;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading u {
+  font-weight: bold;
+  font-size:20px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img {
+  border-radius: 50%;
+  border:4px solid gray
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: -16%;
+  width: 100%;
+  color: black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.youtube-wrapper {
+  background-color:#f7f7f7 ;
+  padding-top: 10px;
+  padding-bottom:50px;
+  border-bottom:2px solid #eee;
+  text-align: center;
+}
+.single-wrapper {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.single {
+  float: left;
+  width: 25%;
+}
+.single-wrapper u {
+  font-size:20px;
+  font-weight: bold;
+}
+
+.single-icon {
+  position: relative;
+}
+
+.single-icon img {
+  transition:transform 0.25s ease;
+}
+
+.single-icon img:hover {
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+.single-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.single-text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #417999;
+  cursor: pointer;
+  box-shadow: 0 7px #266184;
+  font-weight: bold;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 80px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(38,97,132,0.9);
+}
