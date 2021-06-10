@@ -1,0 +1,86 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  iframe {
+    width: 620px;
+    height: 375px;
+  }
+
+  .single {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .single {
+    width:100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .instagram {
+    margin-bottom: 10px;
+  }
+  
+  .twitter {
+    margin-bottom: 10px;
+  }
+
+  .spotify {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Add CSS for header-right */
+  .header-right {
+    display:none;
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon {
+    display:block;
+  }
+
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .main-wrapper h1 {
+    font-size:40px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
