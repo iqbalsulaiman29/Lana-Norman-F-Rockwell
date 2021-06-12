@@ -68,8 +68,8 @@
   }
 
   iframe {
-    width: 460px;
-    height: 315px;
+    width: 360px;
+    height: 215px;
   }
   
   .top-wrapper h1 {
@@ -77,7 +77,7 @@
     line-height: 36px;
   }
   .main-wrapper h1 {
-    font-size:40px;
+    font-size:30px;
   }
   .top-wrapper p {
     font-size: 14px;
